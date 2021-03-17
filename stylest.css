@@ -1,0 +1,406 @@
+body{
+  font-family: sans-serif;
+	background: #F2F2F2;
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #ffffff;
+}
+
+.right {
+  right: 0;
+  background-color: #ffffff;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+}
+ 
+.kotak_login{
+	width: 350px;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 40px 30px;
+  
+  	background: #FFFFFF;
+  	box-shadow: -3px 4px 10px rgba(0, 0, 0, 0.25);
+  
+}
+
+.kotak_table{
+	width: 90%;
+	font-size: 13px;
+	/*meletakkan form ke tengah*/
+	margin: 20px auto;
+	padding: 20px 30px;
+	box-shadow: 0px 0px 100px 4px #d6d6d6;
+  	left: 34.24%;
+  	right: 34.31%;
+  	top: 13.56%;
+  	bottom: 16.55%;
+  
+  	background: #FFFFFF;
+  	box-shadow: -3px 4px 10px rgba(0, 0, 0, 0.25);
+  
+  
+}
+
+.kotak_form{
+	width: 900px;
+	font-size: 13px;
+	/*meletakkan form ke tengah*/
+	margin: 20px auto;
+	padding: 20px 30px;
+	
+  
+  background: #FFFFFF;
+  
+}
+
+.kotak_a4{
+	width: 900px;
+	font-size: 13px;
+	/*meletakkan form ke tengah*/
+	margin: 20px auto;
+	padding: 20px 30px;
+	
+  
+  background: #FFFFFF;
+  
+}
+
+.kotaknotif{
+	position: absolute;
+	width: 300px;
+	font-size: 13px;
+	/*meletakkan form ke tengah*/
+	margin: 20px auto;
+	padding: 30px 30px;
+	box-shadow: 0px 0px 100px 4px #d6d6d6;
+	left: 34.24%;
+	right: 34.31%;
+	top: 13.56%;
+	bottom: 57%;
+	 
+	background: #FFFFFF;
+	box-shadow: -3px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+.float-container{
+	padding: 20px;
+}
+ 
+.float-child{
+	width: 50%;
+	float: left;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 13px;
+	font-size: 11pt;
+	margin-bottom: 15px;
+  	background: #FFFFFF;
+  	border: 1px solid #aaaaaa;
+  	box-sizing: border-box;
+  
+}
+
+.form_memo{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 10px;
+	margin-top: 10px;
+  	background: transparent;
+  	border: 1px solid #aaaaaa;
+  	box-sizing: border-box;
+  	border-radius: 1px;
+}
+ 
+.tombol_login{
+  /*Form Button*/
+	background: #397335;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	padding: 15px;
+}
+
+.logoutButton {
+	width: 220px;
+	background-color: transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:16px;
+	padding:7px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+	margin-left: 20px;
+}
+.logoutButton:hover {
+	background-color: #c02a2a;
+	opacity: 80%
+}
+.logoutButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton {
+	background-color:#638EFC;
+	color: #ffffff;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	
+	font-family:Roboto;
+	font-size:16px;
+	padding:7px 31px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color: transparent;
+	color:#000000;
+	border:1px solid #000000;
+	
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.cancelButton {
+	background-color:#dbe6c4;
+	color:#000000;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+
+	
+	font-family: Roboto;
+	font-size:16px;
+	padding:7px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+}
+.cancelButton:hover {
+	background-color: transparent;
+	color:#000000;
+	border:1px solid #000000;
+}
+.cancelButton:active {
+	position:relative;
+	top:1px;
+}
+
+.rejectButton {
+	background-color:#c02a2a;
+	border:1px ;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:7px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.rejectButton:hover {
+	background-color:#c01a1a;
+}
+.rejectButton:active {
+	position:relative;
+	top:1px;
+}
+
+.menuButton {
+	background-color:#7892c2;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:4px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+	margin: 1px;
+}
+.menuButton:hover {
+	background-color:#476e9e;
+}
+.menuButton:active {
+	position:relative;
+	top:1px;
+}
+
+.printButton {
+	background-color:#000000;
+	border-radius:30px;
+	border:1px solid #b2b8ad;
+	display:inline-block;
+	cursor:pointer;
+	color:#757d6f;
+	font-family:Arial;
+	font-size:13px;
+	padding:7px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+}
+
+.searchButton {
+	background-color:#dbe6c4;
+	border-radius:30px;
+	border:1px solid #b2b8ad;
+	display:inline-block;
+	cursor:pointer;
+	color:#757d6f;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+}
+.searchButton:hover {
+	background-color:#9ba892;
+}
+.searchButton:active {
+	position:relative;
+	top:1px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+ 
+.alert{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
+
+.sidenav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  background-color: #2f4050;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: -3px 4px 10px rgba(0, 0, 0, 0.25);
+  top: 0; 
+  left: 0;
+}
+
+.sidenav a {
+  opacity: 70%;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenavButton {
+	width: 100%;
+	background-color: transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration:none;
+}
+
+
+.sidenavButton:hover {
+	background-color:#1ab394;
+	opacity: 100%;
+}
+.sidenavButton:active {
+	position:relative;
+	top:1px;
+}
+
+.sidenavLogout {
+	width: 100%;
+	background-color: transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-decoration:none;
+}
+
+
+.sidenavLogout:hover {
+	background-color:#DE2222;
+	opacity: 75%;
+}
+.sidenavLogout:active {
+	position:relative;
+	top:1px;
+}
+
+.navbar {
+  height: 15px;
+  width: 100%;
+  position: fixed;
+  z-index: 0;
+  background-color: #2f4050;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: -3px 4px 10px rgba(0, 0, 0, 0.25);
+  top: 0;
+}
+
+.navbar a {
+  opacity: 70%;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+}
+
+.navbar a:hover {
+  color: #f1f1f1;
+}
